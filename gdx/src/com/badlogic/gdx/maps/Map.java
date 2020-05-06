@@ -27,7 +27,7 @@ import com.badlogic.gdx.utils.Disposable;
 /** A generic level map implementation.</p>
  * 
  * A map has {@link MapProperties} which describe general attributes. Availability of properties depends on the type of map, e.g.
- * what format is was loaded from etc.</p>
+ * what format it was loaded from etc.</p>
  * 
  * A map has {@link MapLayers}. Map layers are ordered and indexed. A {@link MapLayer} contains {@link MapObjects} which represent
  * things within the layer. Different types of {@link MapObject} are available, e.g. {@link CircleMapObject},
